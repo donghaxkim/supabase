@@ -15,11 +15,15 @@ Some of the components have the `_Shadcn_` suffix. These components should be pr
 ### Utilities
 
 ```tsx
-// deep object merge (used for themes)
-import { clipboard, cn, mergeDeep } from 'ui' // Tailwind class merging (shadcn-ui/cn)
+import { cn, copyToClipboard, mergeDeep } from 'ui'
 
-// copy-to-clipboard helper
+copyToClipboard('hello')
 ```
+
+`copyToClipboard` accepts a string or `Promise<string>`.
+Pass a promise directly when resolving text asynchronously so Safari can keep the clipboard write within the user gesture.
+If the rich `ClipboardItem` write path is unavailable or rejects, the helper falls back to `writeText`.
+The optional callback runs after a successful write.
 
 ## Styling conventions
 

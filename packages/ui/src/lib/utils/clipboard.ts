@@ -4,8 +4,12 @@ import { toast } from 'sonner'
 type ClipboardText = string | Promise<string>
 
 /**
- * Copy text content (string or Promise<string>) into Clipboard. Safari doesn't support write text into clipboard async,
- * so if you need to load text content async before coping, please use Promise<string> for the 1st arg.
+ * Copy text content (string or Promise<string>) to the clipboard. Safari doesn't support writing text to the clipboard
+ * asynchronously, so if you need to load text content asynchronously before copying, pass a Promise<string> as the
+ * first argument.
+ *
+ * When the ClipboardItem write path is available but rejects, this helper falls back to writeText before reporting an
+ * error. The optional callback runs after a successful write.
  *
  * IF YOU NEED TO CHANGE THIS FUNCTION, PLEASE TEST IT IN SAFARI with a promised string. Expiring URL to a file in a
  * private bucket will do.
