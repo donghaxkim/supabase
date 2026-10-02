@@ -1,0 +1,28 @@
+apps/studio/static-data/integrations/stripe_wrapper/overview.md
+  s_271840c382f74c::t_bd070fdef96a0d 4-6
+apps/studio/components/interfaces/Integrations/Wrappers/EditWrapperSheet.tsx
+  s_271840c382f74c::t_bd070fdef96a0d 288
+  s_271840c382f74c::t_1bd7123ea021c5 26
+apps/studio/components/interfaces/Integrations/Wrappers/ForeignTableSecurityWarning.tsx
+  s_271840c382f74c::t_bd070fdef96a0d 1-12
+  s_271840c382f74c::t_a490f287e7e41e 13-14
+apps/studio/components/interfaces/Integrations/Wrappers/CreateWrapperSheet.tsx
+  s_271840c382f74c::t_11ef97034c15cd 328
+  s_271840c382f74c::t_f2934c0b3a568d 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5ce87ef46f13f837d27bfb837468760743756f83",
+  "prompts": {},
+  "sessions": {
+    "s_271840c382f74c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fea6-3583-7231-be1b-668c750ba806",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "donghaxkim <donghaxkim@gmail.com>"
+    }
+  }
+}
