@@ -1,0 +1,22 @@
+apps/docs/content/guides/self-hosting/docker.mdx
+  s_271840c382f74c::t_29a90cbd6baaa4 17,196-204,208-217
+  s_271840c382f74c::t_2d107c53aeebc7 205
+  s_271840c382f74c::t_f0be69536fbab7 206-207
+  s_271840c382f74c::t_617a9a3d730255 218
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f73ba5fae70cf7ebcedc474225edb05caf15e701",
+  "prompts": {},
+  "sessions": {
+    "s_271840c382f74c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fea6-3583-7231-be1b-668c750ba806",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "donghaxkim <donghaxkim@gmail.com>"
+    }
+  }
+}
