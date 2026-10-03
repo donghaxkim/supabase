@@ -1,0 +1,19 @@
+examples/prompts/use-realtime.md
+  s_271840c382f74c::t_0dc1a3f17788a6 188,208,227
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "61300ba61f2bba4abb0080d9df6dd5848ea782f4",
+  "prompts": {},
+  "sessions": {
+    "s_271840c382f74c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fea6-3583-7231-be1b-668c750ba806",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "donghaxkim <donghaxkim@gmail.com>"
+    }
+  }
+}
