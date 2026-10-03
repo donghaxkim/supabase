@@ -1,0 +1,19 @@
+apps/docs/CONTRIBUTING.md
+  s_271840c382f74c::t_097bbb33d773ee 104-107,122-123,127
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6cd40590454d0fd1dcce216c586a9d6faa17f5e7",
+  "prompts": {},
+  "sessions": {
+    "s_271840c382f74c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fea6-3583-7231-be1b-668c750ba806",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "donghaxkim <donghaxkim@gmail.com>"
+    }
+  }
+}
